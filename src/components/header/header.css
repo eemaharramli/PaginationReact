@@ -1,0 +1,86 @@
+header{
+    height: 54px;
+    background-color: #262626;
+    position: fixed;
+	z-index: 2;
+    width: 100%;
+	top: 0
+}
+
+header .header-inner{
+    width: calc(100% - 50px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+header .header-inner a img{
+    width: 152px;
+    height: 18px;
+}
+
+header .header-inner button{
+    color: #fff;
+    background-color: #82b440;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: .3s ease-in-out all;
+}
+
+header .header-inner button:hover{
+    cursor: pointer;
+    background-color: #6f9a37;
+}
+
+nav{
+    width: 1140px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+nav .navbar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .navbar a{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 20px;
+    transition: .3s ease-in-out all;
+}
+
+nav .navbar a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+
+nav .navbar a span{
+    font-weight: 700;
+}
+
+nav .navbar ul{
+    width: 552px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #000000;
+}
+
+nav .navbar ul li{
+    display: inline-block;
+}
+
+nav .navbar ul li:hover{
+    cursor: pointer;
+}
+
+nav .navbar ul li.active{
+    font-weight: 700;
+}
